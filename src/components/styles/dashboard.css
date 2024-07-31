@@ -1,0 +1,56 @@
+.db-main-frame {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 50px;
+    gap: 160px;
+    padding: 16px;
+}
+
+.add-cell {
+    background-color: #cdcccc;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+
+    height: 200px;
+    width: 300px;
+}
+
+.books-cell {
+    background-color: #66c4d8;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    height: 200px;
+    width: 300px;
+}
+
+.books-cell h3 {
+    margin-top: 0;
+}
+
+.books-cell p {
+    margin: 4px 0;
+}
+
+.add-img {
+    width: 50%;
+    height: 70%;
+    align-self: center;
+}

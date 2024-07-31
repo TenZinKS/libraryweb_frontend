@@ -1,15 +1,15 @@
 // @ts-ignore
 import React from 'react';
 import Header from './Header';
-import HomeMain from './HomeMain';
+import DashboardMain from './DashboardMain';
 
-function HomePage() {
+function Dashboard() {
     return (
         <>
             <Header />
-            <HomeMain />
+            <DashboardMain />
         </>
     );
 }
 
-export default HomePage;
+export default Dashboard;

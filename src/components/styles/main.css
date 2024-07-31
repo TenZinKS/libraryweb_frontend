@@ -8,11 +8,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: monospace;
 }
 
-.login-form {
-    height: 80%;
-    width: 80%;
+.main-logo {
+    height: 70%;
+    width: 30%;
+    align-items: center;
+}
+
+.main-logo img {
+    object-fit: fill;
+    align-self: center;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+.login-form-frame {
+    height: 70%;
+    width: 30%;
     background-color: #f5d79b;
     display: flex;
     flex-direction: column;
@@ -23,39 +40,56 @@
     border-radius: 8px;
 }
 
-.login-form form {
+.login-form {
     width: 100%;
     max-width: 400px;
     display: flex;
     flex-direction: column;
 }
 
-.login-form label {
-    margin: 10px 0 5px;
+.login-flex {
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    margin-bottom: 20px;
 }
 
-.login-form input {
-    padding: 10px;
-    margin-bottom: 15px;
+.login-label {
+    width: 250px;
+    margin: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.login-input {
+    padding: 16px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
-.login-form button {
-    padding: 10px;
-    background-color: #4CAF50;
+.login-btn {
+    padding: 16px;
+    background-color: darkred;
+    width: 200px;
+    margin: 10px;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .login-form button:hover {
-    background-color: #45a049;
+    background-color: #b60606;
+}
+
+.go-signup {
+    font-size: 20px;
 }
 
 .toggle-link {
     color: blue;
     cursor: pointer;
     text-decoration: underline;
+    font-weight: bold;
 }
