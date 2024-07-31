@@ -1,8 +1,10 @@
-import Header from "./components/Header";
+// @ts-ignore
+import React from 'react';
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
-    <Header/>
+      <HomePage/>
   );
 }
 
